@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(120deg, #00ff3cc8, #0000ffc8);
+    display: flex;
+    align-items: center; /* O CONTEUDO VAI FICAR NO MEIO DA TELA*/
+    justify-content: center; /* O CONTEUDO VAI FICAR NO MEIO DA TELA*/
+}
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 210px;
+    width: 600px;
+    background: transparent;
+    border-radius: 15px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .9);
+  
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    color: aliceblue;
+    background:  rgba(0, 0, 0, 10);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .9);
+    border: 7px;
+    letter-spacing: 2px;
+}
+
+
+.relogio span{
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo{
+    font-size: 15px;
+}
+
+
+
+
+/*
+APRENDIZADO
+
+*{
+} -> É como um reset básico, onde o astericos é o seletor universavel aplica as regras a todos os elementos
+Margin: 0; - Remove as margens padrão dos elementos 
+padding: 0; - Remove o preenchimento padrão, evitando espaços dentro dos elementos.
+font-familiy - É a fonte padrão para todos elementos 
+
+
+
+
+
+Body = é a parte do documento que contém o conteúdo principal e visível de uma página, 
+como imagens, texto e links. É delimitado pela tag <body>
+Body{
+} 
+Height vai definir a altura do body (área visível do navegador)
+Background com linear-gradient: Aplica um fundo em degradê começando com uma cor e misturando com outra ao longo de um angulo de 120 graus
+
+display: flex;: Ativa o modelo Flexbox, permitindo um layout mais flexível.
+
+align-items: center;: Centraliza verticalmente os elementos filhos no body.
+
+justify-content: center;: Centraliza horizontalmente os elementos filhos no body.
+
+
+
+.relogio{
+}
+display: flex;: Habilita Flexbox para o contêiner .relogio.
+align-items: center;: Centraliza verticalmente os itens dentro de .relogio.
+justify-content: space-around;: Distribui os itens com espaço igual ao redor deles.
+height: 200px;: Define a altura do elemento .relogio.
+width: 550px;: Define a largura do elemento.
+background: transparent;: O fundo é transparente, permitindo que o fundo do body apareça.
+border-radius: 3px;: Arredonda as bordas do contêiner.
+box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);: Adiciona uma sombra abaixo do elemento, criando um efeito de elevação.
+
+
+
+
+
+
+
+
+
+
+
+
+*/
